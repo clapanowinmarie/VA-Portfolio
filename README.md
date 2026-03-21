@@ -12,7 +12,7 @@ With a background in customer service and administrative tasks, I have developed
 - **Time Management**: Excellent at prioritizing tasks and meeting deadlines to ensure smooth operations.
 
 ## Experience
-I have worked as a Virtual Assistant for [X years/months], collaborating with clients across multiple industries to effectively manage tasks such as:
+I have worked as a Virtual Assistant for 2 years and 3 months, collaborating with clients across multiple industries to effectively manage tasks such as:
 - Calendar management and appointment scheduling
 - Data entry and organization
 - Customer relationship management
