@@ -72,13 +72,13 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ## Experience Highlights
 
-- Managed end-to-end content workflows including creation, SEO optimization, and publishing via CMS platforms
+- Managed end-to-end content workflows, including creation, SEO optimization, and publishing via CMS platforms
 - Conducted keyword research and applied on-page SEO best practices to improve content visibility
 - Supported link-building efforts and tracked backlink performance
 - Compiled weekly and monthly SEO performance reports using analytics tools
 - Coordinated project timelines and deliverables across remote teams
 - Managed and scheduled social media content aligned with brand strategy
-
+- Created landing pages, improved design, and internal links
 ---
 
 ## What Sets Me Apart
@@ -94,7 +94,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 I'm currently open to part-time and full-time remote VA opportunities, especially with digital marketing and SEO teams.
 
-> Reach me via GitHub or connect on [LinkedIn]((https://www.linkedin.com/in/winmarie-clapano-14ba7a216/)) <!-- Replace # with your LinkedIn URL -->
+> Reach me via GitHub or connect on [LinkedIn](https://www.linkedin.com/in/winmarie-clapano-14ba7a216/)
 
 ---
 
