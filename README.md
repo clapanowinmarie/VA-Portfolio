@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/26162783/README.md)
-# Hi, I'm Winmarie Clapano
+# Hi, I'm Winmarie Clapano <img src="./profile.jpg" alt="Winmarie Clapano" width="150" style="border-radius: 50%;" />
 
 ### Virtual Assistant | Content Management | SEO Support | Digital Marketing
 
