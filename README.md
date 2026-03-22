@@ -1,5 +1,5 @@
 [README (1).md](https://github.com/user-attachments/files/26162796/README.1.md)
-# 👋 Hi, I'm Winmarie Clapano
+# Hi, I'm Winmarie Clapano
 
 <img src="./profile.jpg" alt="Winmarie Clapano" width="150" style="border-radius: 50%;" />
 
@@ -51,7 +51,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 | **Social Media** | Scheduling posts, engaging with followers, supporting campaign execution |
 | **Project Coordination** | Tracking deadlines, maintaining timelines, using Asana/Trello to keep teams aligned |
 | **Administrative Support** | Calendar management, data entry, email correspondence, file organization |
-
+| **Customer Support** | email assistance, order updates, BPO, Shopify order management, logistics |
 ---
 
 ## Experience Highlights
