@@ -1,21 +1,83 @@
-# Winmarie Clapano's Professional Portfolio
+[README.md](https://github.com/user-attachments/files/26162783/README.md)
+# 👋 Hi, I'm Winmarie Clapano
 
-Welcome to my professional portfolio! My name is Winmarie Clapano, and I am a dedicated and detail-oriented Virtual Assistant (VA) committed to helping businesses achieve their goals through efficient administrative support.
+### Virtual Assistant | Content Management | SEO Support | Digital Marketing
 
-## Background
-With a background in customer service and administrative tasks, I have developed the skills necessary to manage various tasks and projects efficiently. Over the years, I have worked with diverse clients, providing them with top-quality assistance tailored to their specific needs.
+![VA](https://img.shields.io/badge/Role-Virtual%20Assistant-4A90D9?style=flat-square)
+![SEO](https://img.shields.io/badge/Skill-SEO%20Support-27AE60?style=flat-square)
+![Content](https://img.shields.io/badge/Skill-Content%20Management-E67E22?style=flat-square)
+![Location](https://img.shields.io/badge/Location-Philippines-CE1126?style=flat-square)
+![Availability](https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=flat-square)
 
-## Skills
-- **Administrative Support**: Proficient in managing schedules, handling correspondence, and maintaining organized records.
-- **Communication**: Strong verbal and written communication skills, with a focus on clarity and professionalism.
-- **Technical Proficiency**: Experienced in using various software tools and platforms to enhance productivity, including Microsoft Office Suite, Google Workspace, and project management tools.
-- **Time Management**: Excellent at prioritizing tasks and meeting deadlines to ensure smooth operations.
+---
 
-## Experience
-I have worked as a Virtual Assistant for 2 years and 3 months, collaborating with clients across multiple industries to effectively manage tasks such as:
-- Calendar management and appointment scheduling
-- Data entry and organization
-- Customer relationship management
-- Research and report generation
+## 🙋 About Me
 
-I am passionate about providing exceptional service and strive to continuously improve my skills to better serve my clients. Thank you for visiting my portfolio!
+I'm a detail-oriented and proactive Virtual Assistant based in the Philippines, with 1 to 3 years of experience supporting digital marketing and SEO-focused teams. I help remote teams stay organized, on schedule, and consistently producing content that performs.
+
+I thrive in fast-paced environments, take ownership of my tasks, and work well with minimal supervision.
+
+---
+
+## 🛠️ Skills & Tools
+
+### Content & SEO
+![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![Google Analytics](https://img.shields.io/badge/Google%20Analytics-Reporting-E37400?style=flat-square&logo=google-analytics&logoColor=white)
+![SEMrush](https://img.shields.io/badge/SEMrush-Keyword%20Research-FF642D?style=flat-square)
+![Ahrefs](https://img.shields.io/badge/Ahrefs-Link%20Building-1A73E8?style=flat-square)
+
+### Project & Admin
+![Asana](https://img.shields.io/badge/Asana-Project%20Management-F06A6A?style=flat-square&logo=asana&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-Task%20Tracking-0052CC?style=flat-square&logo=trello&logoColor=white)
+![Google Suite](https://img.shields.io/badge/Google%20Suite-Docs%2C%20Sheets%2C%20Gmail-4285F4?style=flat-square&logo=google&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-Design-00C4CC?style=flat-square&logo=canva&logoColor=white)
+
+### Social Media
+![Buffer](https://img.shields.io/badge/Buffer-Scheduling-168EEA?style=flat-square)
+![Hootsuite](https://img.shields.io/badge/Hootsuite-Social%20Media-143059?style=flat-square)
+
+---
+
+## 📋 What I Do
+
+| Area | Tasks |
+|---|---|
+| **Content Management** | Writing, editing, scheduling, and publishing blog posts, web copy, and social media content optimized for SEO |
+| **SEO Support** | Keyword research, on-page optimization (meta tags, headings, internal linking), backlink tracking |
+| **Analytics & Reporting** | Monitoring traffic and keyword rankings via Google Analytics and Search Console, compiling performance reports |
+| **Social Media** | Scheduling posts, engaging with followers, supporting campaign execution |
+| **Project Coordination** | Tracking deadlines, maintaining timelines, using Asana/Trello to keep teams aligned |
+| **Administrative Support** | Calendar management, data entry, email correspondence, file organization |
+
+---
+
+## 💼 Experience Highlights
+
+- Managed end-to-end content workflows including creation, SEO optimization, and publishing via CMS platforms
+- Conducted keyword research and applied on-page SEO best practices to improve content visibility
+- Supported link-building efforts and tracked backlink performance
+- Compiled weekly and monthly SEO performance reports using analytics tools
+- Coordinated project timelines and deliverables across remote teams
+- Managed and scheduled social media content aligned with brand strategy
+
+---
+
+## 🌟 What Sets Me Apart
+
+- **Self-starter** — I manage my own workload and don't need micromanagement
+- **Detail-oriented** — I catch errors before they become problems
+- **Reliable** — consistent output, met deadlines, and clear communication
+- **Remote-ready** — stable internet, quiet workspace, and available during Pacific Time hours
+
+---
+
+## 📫 Let's Connect
+
+I'm currently open to part-time and full-time remote VA opportunities, especially with digital marketing and SEO teams.
+
+> 📧 Reach me via GitHub or connect on [LinkedIn](#) <!-- Replace # with your LinkedIn URL -->
+
+---
+
+*Based in the Philippines | Available 8AM to 12PM Pacific Time*
