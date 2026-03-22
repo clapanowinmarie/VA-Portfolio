@@ -76,7 +76,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 I'm currently open to part-time and full-time remote VA opportunities, especially with digital marketing and SEO teams.
 
-> 📧 Reach me via GitHub or connect on [[LinkedIn](https://www.linkedin.com/in/winmarie-clapano-14ba7a216/)](#) <!-- Replace # with your LinkedIn URL -->
+> 📧 Reach me via GitHub or connect on [LinkedIn](https://www.linkedin.com/in/winmarie-clapano-14ba7a216/) <!-- Replace # with your LinkedIn URL -->
 
 ---
 
