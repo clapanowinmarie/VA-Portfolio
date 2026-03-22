@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/26162783/README.md)
-# 👋 Hi, I'm Winmarie Clapano
+# Hi, I'm Winmarie Clapano
 
 ### Virtual Assistant | Content Management | SEO Support | Digital Marketing
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 🙋 About Me
+## About Me
 
 I'm a detail-oriented and proactive Virtual Assistant based in the Philippines, with 1 to 3 years of experience supporting digital marketing and SEO-focused teams. I help remote teams stay organized, on schedule, and consistently producing content that performs.
 
@@ -19,7 +19,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 🛠️ Skills & Tools
+## Skills & Tools
 
 ### Content & SEO
 ![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?style=flat-square&logo=wordpress&logoColor=white)
@@ -39,7 +39,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 📋 What I Do
+## What I Do
 
 | Area | Tasks |
 |---|---|
@@ -52,7 +52,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 💼 Experience Highlights
+## Experience Highlights
 
 - Managed end-to-end content workflows including creation, SEO optimization, and publishing via CMS platforms
 - Conducted keyword research and applied on-page SEO best practices to improve content visibility
@@ -63,7 +63,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 🌟 What Sets Me Apart
+## What Sets Me Apart
 
 - **Self-starter** — I manage my own workload and don't need micromanagement
 - **Detail-oriented** — I catch errors before they become problems
@@ -72,11 +72,11 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 📫 Let's Connect
+## Let's Connect
 
 I'm currently open to part-time and full-time remote VA opportunities, especially with digital marketing and SEO teams.
 
-> 📧 Reach me via GitHub or connect on [LinkedIn](#) <!-- Replace # with your LinkedIn URL -->
+> 📧 Reach me via GitHub or connect on [[LinkedIn](https://www.linkedin.com/in/winmarie-clapano-14ba7a216/)](#) <!-- Replace # with your LinkedIn URL -->
 
 ---
 
