@@ -42,6 +42,9 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 ![Operations](https://img.shields.io/badge/Business%20Operations-Process%20Management-8E44AD?style=flat-square)
 ![Logistics](https://img.shields.io/badge/Logistics-Coordination-2C3E50?style=flat-square)
 ![Customer Service](https://img.shields.io/badge/Customer%20Service-Client%20Support-1ABC9C?style=flat-square)
+![Shopify](https://img.shields.io/badge/Shopify-Order%20Management-96BF48?style=flat-square&logo=shopify&logoColor=white)
+![Klaviyo](https://img.shields.io/badge/Klaviyo-Email%20Marketing-00B4A0?style=flat-square)
+![Fulfillment](https://img.shields.io/badge/Order%20Fulfillment-Logistics-2C3E50?style=flat-square)
 
 ### Project & Admin
 ![Asana](https://img.shields.io/badge/Asana-Project%20Management-F06A6A?style=flat-square&logo=asana&logoColor=white)
