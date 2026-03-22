@@ -33,6 +33,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ### Content & SEO
 ![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![Carrot](https://img.shields.io/badge/Carrot-CMS-E8532A?style=flat-square)
 ![Google Analytics](https://img.shields.io/badge/Google%20Analytics-Reporting-E37400?style=flat-square&logo=google-analytics&logoColor=white)
 ![SEMrush](https://img.shields.io/badge/SEMrush-Keyword%20Research-FF642D?style=flat-square)
 ![Ahrefs](https://img.shields.io/badge/Ahrefs-Link%20Building-1A73E8?style=flat-square)
