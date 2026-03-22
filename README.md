@@ -1,16 +1,18 @@
-[README (2).md](https://github.com/user-attachments/files/26162878/README.2.md)
 <table>
   <tr>
     <td width="180">
       <img src="./profile.jpg" alt="Winmarie Clapano" width="160" style="border-radius: 12px;" />
     </td>
     <td valign="middle" style="padding-left: 20px;">
-      <h1>👋 Hi, I'm Winmarie Clapano</h1>
+      <h1>Hi, I'm Winmarie Clapano</h1>
       <h3>Virtual Assistant | Content Management | SEO Support | Digital Marketing</h3>
       <br/>
       <img src="https://img.shields.io/badge/Role-Virtual%20Assistant-4A90D9?style=flat-square" />
       <img src="https://img.shields.io/badge/Skill-SEO%20Support-27AE60?style=flat-square" />
       <img src="https://img.shields.io/badge/Skill-Content%20Management-E67E22?style=flat-square" />
+      <img src="https://img.shields.io/badge/Skill-Business%20Operations-8E44AD?style=flat-square" />
+      <img src="https://img.shields.io/badge/Skill-Logistics-2C3E50?style=flat-square" />
+      <img src="https://img.shields.io/badge/Skill-Customer%20Service-1ABC9C?style=flat-square" />
       <img src="https://img.shields.io/badge/Location-Philippines-CE1126?style=flat-square" />
       <img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=flat-square" />
     </td>
@@ -19,7 +21,7 @@
 
 ---
 
-## 🙋 About Me
+## About Me
 
 I'm a detail-oriented and proactive Virtual Assistant based in the Philippines, with 1 to 3 years of experience supporting digital marketing and SEO-focused teams. I help remote teams stay organized, on schedule, and consistently producing content that performs.
 
@@ -27,13 +29,18 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 🛠️ Skills & Tools
+## Skills & Tools
 
 ### Content & SEO
 ![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?style=flat-square&logo=wordpress&logoColor=white)
 ![Google Analytics](https://img.shields.io/badge/Google%20Analytics-Reporting-E37400?style=flat-square&logo=google-analytics&logoColor=white)
 ![SEMrush](https://img.shields.io/badge/SEMrush-Keyword%20Research-FF642D?style=flat-square)
 ![Ahrefs](https://img.shields.io/badge/Ahrefs-Link%20Building-1A73E8?style=flat-square)
+
+### Business Operations & Logistics
+![Operations](https://img.shields.io/badge/Business%20Operations-Process%20Management-8E44AD?style=flat-square)
+![Logistics](https://img.shields.io/badge/Logistics-Coordination-2C3E50?style=flat-square)
+![Customer Service](https://img.shields.io/badge/Customer%20Service-Client%20Support-1ABC9C?style=flat-square)
 
 ### Project & Admin
 ![Asana](https://img.shields.io/badge/Asana-Project%20Management-F06A6A?style=flat-square&logo=asana&logoColor=white)
@@ -47,7 +54,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 📋 What I Do
+## What I Do
 
 | Area | Tasks |
 |---|---|
@@ -55,12 +62,15 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 | **SEO Support** | Keyword research, on-page optimization (meta tags, headings, internal linking), backlink tracking |
 | **Analytics & Reporting** | Monitoring traffic and keyword rankings via Google Analytics and Search Console, compiling performance reports |
 | **Social Media** | Scheduling posts, engaging with followers, supporting campaign execution |
+| **Business Operations** | Streamlining workflows, managing processes, supporting day-to-day operational tasks efficiently |
+| **Logistics Coordination** | Coordinating schedules, tracking deliverables, managing timelines and task handoffs across teams |
+| **Customer Service** | Handling client inquiries, managing communication, ensuring clients are updated on project progress |
 | **Project Coordination** | Tracking deadlines, maintaining timelines, using Asana/Trello to keep teams aligned |
 | **Administrative Support** | Calendar management, data entry, email correspondence, file organization |
 
 ---
 
-## 💼 Experience Highlights
+## Experience Highlights
 
 - Managed end-to-end content workflows including creation, SEO optimization, and publishing via CMS platforms
 - Conducted keyword research and applied on-page SEO best practices to improve content visibility
@@ -71,7 +81,7 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 🌟 What Sets Me Apart
+## What Sets Me Apart
 
 - **Self-starter** — I manage my own workload and don't need micromanagement
 - **Detail-oriented** — I catch errors before they become problems
@@ -80,11 +90,11 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## 📫 Let's Connect
+## Let's Connect
 
 I'm currently open to part-time and full-time remote VA opportunities, especially with digital marketing and SEO teams.
 
-> 📧 Reach me via GitHub or connect on [LinkedIn](#) <!-- Replace # with your LinkedIn URL -->
+> Reach me via GitHub or connect on [LinkedIn]([https://www.linkedin.com/in/winmarie-clapano-14ba7a216]) <!-- Replace # with your LinkedIn URL -->
 
 ---
 
