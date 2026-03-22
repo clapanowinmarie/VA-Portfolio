@@ -102,4 +102,4 @@ I'm currently open to part-time and full-time remote VA opportunities, especiall
 
 ---
 
-*Based in the Philippines | Available 8AM to 12PM Pacific Time*
+*Based in the Philippines | Available 8AM to 8PM Eastern Daylight Time*
