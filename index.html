@@ -1,1 +1,680 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Winmarie Clapano - Professional Portfolio</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n            color: #333;\n        }\n        .container {\n            width: 80%;\n            margin: auto;\n            overflow: hidden;\n        }\n        header {\n            background: #35424a;\n            color: #ffffff;\n            padding: 20px 0;\n            text-align: center;\n        }\n        .main {\n            padding: 20px;\n            background: white;\n            margin-top: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n        }\n        h2 {\n            color: #35424a;\n        }\n        footer {\n            text-align: center;\n            padding: 10px 0;\n            background: #35424a;\n            color: white;\n            position: relative;\n            bottom: 0;\n            width: 100%;\n        }\n    </style>\n</head>\n<body>\n    <header>\n        <h1>Winmarie Clapano</h1>\n        <p>Virtual Assistant</p>\n    </header>\n    <div class="container">\n        <div class="main">\n            <h2>Profile</h2>\n            <p>Dedicated and detail-oriented Virtual Assistant with strong organizational skills and a focus on efficiency.</p>\n            <h2>Skills</h2>\n            <ul>\n                <li>Administrative Support</li>\n                <li>Social Media Management</li>\n                <li>Content Creation</li>\n                <li>Customer Service</li>\n                <li>Data Entry</li>\n            </ul>\n            <h2>Experience</h2>\n            <p>Over 3 years of experience in providing high-quality administrative support to various clients.</p>\n            <h2>Contact Information</h2>\n            <p>Email: winmarie@example.com</p>\n            <p>Phone: (123) 456-7890</p>\n        </div>\n    </div>\n    <footer>\n        <p>© 2026 Winmarie Clapano</p>\n    </footer>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Winmarie Clapano | Virtual Assistant</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #F7F4EF;
+      --dark: #1C1C1A;
+      --accent: #C2593A;
+      --accent-light: #E8D5CE;
+      --muted: #7A7670;
+      --white: #FFFFFF;
+      --card: #FFFFFF;
+      --border: #E8E4DC;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      font-size: 16px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 48px;
+      background: rgba(247, 244, 239, 0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      transition: padding 0.3s;
+    }
+
+    .nav-logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.2rem;
+      color: var(--dark);
+      text-decoration: none;
+    }
+
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a {
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--accent); }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 120px 48px 80px;
+      gap: 64px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hero-text { opacity: 0; animation: fadeUp 0.9s ease forwards 0.2s; }
+
+    .hero-eyebrow {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-light);
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.8rem, 5vw, 4.2rem);
+      line-height: 1.1;
+      color: var(--dark);
+      margin-bottom: 20px;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-sub {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 420px;
+      margin-bottom: 36px;
+      font-weight: 300;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 40px;
+    }
+
+    .tag {
+      font-size: 0.78rem;
+      font-weight: 500;
+      padding: 5px 14px;
+      border-radius: 100px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      background: var(--white);
+      transition: all 0.2s;
+    }
+    .tag:hover { border-color: var(--accent); color: var(--accent); }
+
+    .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 28px;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.22s;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: var(--white);
+    }
+    .btn-primary:hover { background: #a8452a; transform: translateY(-1px); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--dark);
+      border: 1.5px solid var(--border);
+    }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+
+    .hero-image {
+      opacity: 0;
+      animation: fadeUp 0.9s ease forwards 0.45s;
+      position: relative;
+    }
+
+    .hero-image::before {
+      content: '';
+      position: absolute;
+      top: 24px; left: 24px;
+      right: -12px; bottom: -12px;
+      border: 2px solid var(--accent-light);
+      border-radius: 16px;
+      z-index: 0;
+    }
+
+    .hero-image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 14px;
+      display: block;
+      position: relative;
+      z-index: 1;
+      object-fit: cover;
+      aspect-ratio: 3/4;
+    }
+
+    .availability-dot {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.8rem;
+      color: #2E7D32;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+    .dot {
+      width: 8px; height: 8px;
+      background: #4CAF50;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    /* SECTIONS */
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 80px 48px;
+    }
+
+    .section-label {
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      line-height: 1.2;
+      color: var(--dark);
+      margin-bottom: 48px;
+    }
+
+    /* SKILLS GRID */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 24px;
+      transition: all 0.25s;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    .skill-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .skill-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 8px 32px rgba(194, 89, 58, 0.08);
+      transform: translateY(-3px);
+    }
+
+    .skill-icon {
+      width: 40px; height: 40px;
+      background: var(--accent-light);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      font-size: 1.1rem;
+    }
+
+    .skill-card h3 {
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: var(--dark);
+    }
+
+    .skill-card p {
+      font-size: 0.83rem;
+      color: var(--muted);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    /* TOOLS */
+    .tools-section { background: var(--dark); border-radius: 20px; padding: 56px; margin: 0 48px; }
+    .tools-section .section-label { color: var(--accent-light); }
+    .tools-section .section-title { color: var(--white); margin-bottom: 36px; }
+
+    .tools-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tool-pill {
+      padding: 8px 18px;
+      border-radius: 100px;
+      border: 1px solid rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.75);
+      font-size: 0.83rem;
+      font-weight: 400;
+      transition: all 0.2s;
+      cursor: default;
+    }
+    .tool-pill:hover {
+      border-color: var(--accent);
+      color: var(--white);
+      background: rgba(194, 89, 58, 0.15);
+    }
+
+    /* WHAT I DO TABLE */
+    .services-list { display: flex; flex-direction: column; gap: 1px; }
+
+    .service-row {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 32px;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+      opacity: 0;
+      transform: translateX(-12px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+      align-items: start;
+    }
+
+    .service-row.visible { opacity: 1; transform: translateX(0); }
+
+    .service-name {
+      font-weight: 500;
+      font-size: 0.9rem;
+      color: var(--dark);
+      padding-top: 2px;
+    }
+
+    .service-desc {
+      font-size: 0.88rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+
+    /* ABOUT */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .about-text p {
+      font-size: 1rem;
+      color: var(--muted);
+      margin-bottom: 16px;
+      font-weight: 300;
+    }
+
+    .about-highlights {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .highlight-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 18px 20px;
+      background: var(--white);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    .highlight-dot {
+      width: 8px; height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+
+    .highlight-item p {
+      font-size: 0.88rem;
+      color: var(--dark);
+      font-weight: 400;
+    }
+
+    /* CONTACT */
+    .contact-box {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 56px;
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .contact-box h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    .contact-box p {
+      color: var(--muted);
+      font-weight: 300;
+      margin-bottom: 32px;
+    }
+
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 32px 48px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 80px;
+    }
+
+    /* DIVIDER */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4); }
+      50%       { box-shadow: 0 0 0 6px rgba(76, 175, 80, 0); }
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav { padding: 16px 24px; }
+      .nav-links { display: none; }
+      .hero { grid-template-columns: 1fr; padding: 100px 24px 60px; gap: 40px; }
+      .hero-image { order: -1; }
+      .hero-image::before { display: none; }
+      .hero-image img { max-width: 260px; margin: 0 auto; }
+      section { padding: 60px 24px; }
+      .tools-section { margin: 0 24px; padding: 36px 24px; }
+      .about-grid { grid-template-columns: 1fr; gap: 36px; }
+      .service-row { grid-template-columns: 1fr; gap: 6px; }
+      .contact-box { padding: 36px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">Winmarie Clapano</a>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="hero">
+      <div class="hero-text">
+        <span class="hero-eyebrow">Available for Remote Work</span>
+        <h1>Virtual Assistant<br>for <em>Digital Teams</em></h1>
+        <p class="hero-sub">Detail-oriented VA based in the Philippines, supporting digital marketing, SEO, e-commerce, and operations teams remotely.</p>
+        <div class="hero-tags">
+          <span class="tag">Content Management</span>
+          <span class="tag">SEO Support</span>
+          <span class="tag">Shopify</span>
+          <span class="tag">Logistics</span>
+          <span class="tag">Customer Service</span>
+          <span class="tag">Klaviyo</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="https://www.linkedin.com/in/winmarie-clapano-14ba7a216/" target="_blank" class="btn btn-outline">LinkedIn</a>
+        </div>
+        <div class="availability-dot">
+          <span class="dot"></span>
+          Open to work · 8AM–12PM Pacific Time
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./profile.jpg" alt="Winmarie Clapano" />
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label">What I Bring</p>
+    <h2 class="section-title">Skills & Expertise</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">✍</div>
+        <h3>Content Management</h3>
+        <p>Writing, editing, scheduling and publishing SEO-optimized content across websites, blogs, and social media.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🔍</div>
+        <h3>SEO Support</h3>
+        <p>Keyword research, on-page optimization, meta tags, internal linking, and backlink tracking.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📦</div>
+        <h3>Order Fulfillment</h3>
+        <p>Managing Shopify orders, coordinating logistics, tracking shipments, and resolving fulfillment issues.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">💬</div>
+        <h3>Customer Service</h3>
+        <p>Handling client inquiries, managing communication, and keeping customers updated on orders and deliverables.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📊</div>
+        <h3>Analytics & Reporting</h3>
+        <p>Monitoring traffic, keyword rankings, and compiling weekly or monthly performance reports.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🗂</div>
+        <h3>Project Coordination</h3>
+        <p>Tracking deadlines and timelines using Asana, Trello, and other project management tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <div class="tools-section">
+    <p class="section-label">Tech Stack</p>
+    <h2 class="section-title">Tools I Work With</h2>
+    <div class="tools-list">
+      <span class="tool-pill">WordPress</span>
+      <span class="tool-pill">Carrot CMS</span>
+      <span class="tool-pill">Shopify</span>
+      <span class="tool-pill">Klaviyo</span>
+      <span class="tool-pill">Google Analytics</span>
+      <span class="tool-pill">Google Search Console</span>
+      <span class="tool-pill">SEMrush</span>
+      <span class="tool-pill">Ahrefs</span>
+      <span class="tool-pill">Asana</span>
+      <span class="tool-pill">Trello</span>
+      <span class="tool-pill">Google Suite</span>
+      <span class="tool-pill">Canva</span>
+      <span class="tool-pill">Buffer</span>
+      <span class="tool-pill">Hootsuite</span>
+      <span class="tool-pill">Microsoft Office</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <p class="section-label">What I Do</p>
+    <h2 class="section-title">Services</h2>
+    <div class="services-list">
+      <div class="service-row">
+        <span class="service-name">Content Management</span>
+        <span class="service-desc">End-to-end content workflows — creation, SEO optimization, scheduling, and publishing via CMS platforms.</span>
+      </div>
+      <div class="service-row">
+        <span class="service-name">SEO Support</span>
+        <span class="service-desc">Keyword research, on-page optimization, meta descriptions, heading structure, internal linking, and backlink tracking.</span>
+      </div>
+      <div class="service-row">
+        <span class="service-name">Order Fulfillment & Logistics</span>
+        <span class="service-desc">Processing Shopify orders, coordinating with suppliers, tracking deliveries, and resolving customer fulfillment issues.</span>
+      </div>
+      <div class="service-row">
+        <span class="service-name">Customer Service</span>
+        <span class="service-desc">Responding to inquiries, managing client communication, and ensuring satisfaction throughout the project lifecycle.</span>
+      </div>
+      <div class="service-row">
+        <span class="service-name">Analytics & Reporting</span>
+        <span class="service-desc">Compiling SEO and performance reports using Google Analytics and Search Console, with actionable insights.</span>
+      </div>
+      <div class="service-row">
+        <span class="service-name">Social Media Management</span>
+        <span class="service-desc">Scheduling posts, engaging with followers, and supporting campaign execution aligned with brand strategy.</span>
+      </div>
+      <div class="service-row">
+        <span class="service-name">Administrative Support</span>
+        <span class="service-desc">Calendar management, data entry, email correspondence, file organization, and general remote admin tasks.</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title" style="margin-bottom:24px;">Hi, I'm Winmarie</h2>
+        <p>I'm a detail-oriented and proactive Virtual Assistant based in the Philippines, with 1 to 3 years of experience supporting digital marketing, SEO, and e-commerce teams remotely.</p>
+        <p>I help teams stay organized, on schedule, and consistently producing work that performs — from content and SEO to order fulfillment and customer communication.</p>
+        <p>I thrive in fast-paced environments, take full ownership of my tasks, and work well with minimal supervision.</p>
+      </div>
+      <div class="about-highlights">
+        <div class="highlight-item">
+          <span class="highlight-dot"></span>
+          <p>Self-starter who manages workload independently without micromanagement</p>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-dot"></span>
+          <p>Detail-oriented — catches errors before they become problems</p>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-dot"></span>
+          <p>Reliable with consistent output, met deadlines, and clear communication</p>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-dot"></span>
+          <p>Remote-ready with stable internet and available during Pacific Time hours</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-box">
+      <h2>Let's Work Together</h2>
+      <p>Open to part-time and full-time remote VA opportunities, especially with digital marketing, SEO, and e-commerce teams.</p>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/winmarie-clapano-14ba7a216/" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
+        <a href="https://github.com/clapanowinmarie/VA-Portfolio" target="_blank" class="btn btn-outline">View GitHub Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Winmarie Clapano · Virtual Assistant · Philippines · Available 8AM–12PM Pacific Time</p>
+  </footer>
+
+  <script>
+    // Scroll-triggered animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, entry.target.dataset.delay || 0);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.skill-card').forEach((el, i) => {
+      el.dataset.delay = i * 80;
+      observer.observe(el);
+    });
+
+    document.querySelectorAll('.service-row').forEach((el, i) => {
+      el.dataset.delay = i * 60;
+      observer.observe(el);
+    });
+
+    // Nav shrink on scroll
+    window.addEventListener('scroll', () => {
+      document.querySelector('nav').style.padding =
+        window.scrollY > 50 ? '14px 48px' : '20px 48px';
+    });
+  </script>
+
+</body>
+</html>
