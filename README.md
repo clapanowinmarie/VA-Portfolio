@@ -1,5 +1,7 @@
-[README.md](https://github.com/user-attachments/files/26162783/README.md)
-# Hi, I'm Winmarie Clapano <img src="./profile.jpg" alt="Winmarie Clapano" width="150" style="border-radius: 50%;" />
+[README (1).md](https://github.com/user-attachments/files/26162796/README.1.md)
+# 👋 Hi, I'm Winmarie Clapano
+
+<img src="./profile.jpg" alt="Winmarie Clapano" width="150" style="border-radius: 50%;" />
 
 ### Virtual Assistant | Content Management | SEO Support | Digital Marketing
 
@@ -72,11 +74,11 @@ I thrive in fast-paced environments, take ownership of my tasks, and work well w
 
 ---
 
-## Let's Connect
+## 📫 Let's Connect
 
 I'm currently open to part-time and full-time remote VA opportunities, especially with digital marketing and SEO teams.
 
-> 📧 Reach me via GitHub or connect on [LinkedIn](https://www.linkedin.com/in/winmarie-clapano-14ba7a216/) <!-- Replace # with your LinkedIn URL -->
+> 📧 Reach me via GitHub or connect on [LinkedIn](https://www.linkedin.com/in/winmarie-clapano-14ba7a216) <!-- Replace # with your LinkedIn URL -->
 
 ---
 
