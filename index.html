@@ -305,12 +305,85 @@
       background: rgba(194, 89, 58, 0.15);
     }
 
+    /* EXPERIENCE */
+    .experience-list { display: flex; flex-direction: column; gap: 32px; }
+
+    .exp-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .exp-card.visible { opacity: 1; transform: translateY(0); }
+
+    .exp-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 8px 32px rgba(194, 89, 58, 0.06);
+    }
+
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .exp-title {
+      font-weight: 500;
+      font-size: 1rem;
+      color: var(--dark);
+    }
+
+    .exp-date {
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-weight: 500;
+      background: var(--accent-light);
+      padding: 4px 12px;
+      border-radius: 100px;
+      white-space: nowrap;
+    }
+
+    .exp-company {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .exp-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .exp-bullets li {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 300;
+      padding-left: 18px;
+      position: relative;
+    }
+
+    .exp-bullets li::before {
+      content: '–';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
     /* WHAT I DO TABLE */
     .services-list { display: flex; flex-direction: column; gap: 1px; }
 
     .service-row {
       display: grid;
-      grid-template-columns: 220px 1fr;
+      grid-template-columns: 260px 1fr;
       gap: 32px;
       padding: 24px 0;
       border-bottom: 1px solid var(--border);
@@ -452,6 +525,7 @@
       .about-grid { grid-template-columns: 1fr; gap: 36px; }
       .service-row { grid-template-columns: 1fr; gap: 6px; }
       .contact-box { padding: 36px 24px; }
+      .exp-header { flex-direction: column; }
     }
   </style>
 </head>
@@ -462,6 +536,7 @@
     <a href="#" class="nav-logo">Winmarie Clapano</a>
     <ul class="nav-links">
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -473,15 +548,15 @@
     <div class="hero">
       <div class="hero-text">
         <span class="hero-eyebrow">Available for Remote Work</span>
-        <h1>Virtual Assistant<br>for <em>Digital Teams</em></h1>
-        <p class="hero-sub">Detail-oriented VA based in the Philippines, supporting digital marketing, SEO, e-commerce, and operations teams remotely.</p>
+        <h1>Virtual Assistant for <em>Operations & Ecommerce</em></h1>
+        <p class="hero-sub">Detail-oriented VA based in the Philippines, specializing in operations support, project coordination, ecommerce management, and digital marketing.</p>
         <div class="hero-tags">
-          <span class="tag">Content Management</span>
-          <span class="tag">SEO Support</span>
-          <span class="tag">Shopify</span>
-          <span class="tag">Logistics</span>
+          <span class="tag">Ecommerce & Shopify</span>
+          <span class="tag">Operations Support</span>
+          <span class="tag">Project Coordination</span>
+          <span class="tag">SEO</span>
+          <span class="tag">Cost Estimation</span>
           <span class="tag">Customer Service</span>
-          <span class="tag">Klaviyo</span>
         </div>
         <div class="hero-cta">
           <a href="#contact" class="btn btn-primary">Get in Touch</a>
@@ -506,34 +581,34 @@
     <h2 class="section-title">Skills & Expertise</h2>
     <div class="skills-grid">
       <div class="skill-card">
-        <div class="skill-icon">✍</div>
-        <h3>Content Management</h3>
-        <p>Writing, editing, scheduling and publishing SEO-optimized content across websites, blogs, and social media.</p>
+        <div class="skill-icon">📦</div>
+        <h3>Ecommerce & Order Fulfillment</h3>
+        <p>End-to-end Shopify order processing, shipping label creation, order tracking, refunds, exchanges, and escalation management.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🗂</div>
+        <h3>Project & Operations Support</h3>
+        <p>Scheduling, workflow tracking, documentation management, progress monitoring, and cross-team communication.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🧮</div>
+        <h3>Cost Estimation Support</h3>
+        <p>Material takeoffs, vendor pricing research, bid preparation, cost comparison reporting, and budget tracking.</p>
       </div>
       <div class="skill-card">
         <div class="skill-icon">🔍</div>
         <h3>SEO Support</h3>
-        <p>Keyword research, on-page optimization, meta tags, internal linking, and backlink tracking.</p>
-      </div>
-      <div class="skill-card">
-        <div class="skill-icon">📦</div>
-        <h3>Order Fulfillment</h3>
-        <p>Managing Shopify orders, coordinating logistics, tracking shipments, and resolving fulfillment issues.</p>
+        <p>Keyword research, on-page optimization, content writing, technical fixes, internal linking, and performance monitoring via Google Search Console.</p>
       </div>
       <div class="skill-card">
         <div class="skill-icon">💬</div>
         <h3>Customer Service</h3>
-        <p>Handling client inquiries, managing communication, and keeping customers updated on orders and deliverables.</p>
+        <p>Handling client inquiries, resolving issues, managing email inboxes, and keeping customers updated on orders and deliverables.</p>
       </div>
       <div class="skill-card">
         <div class="skill-icon">📊</div>
-        <h3>Analytics & Reporting</h3>
-        <p>Monitoring traffic, keyword rankings, and compiling weekly or monthly performance reports.</p>
-      </div>
-      <div class="skill-card">
-        <div class="skill-icon">🗂</div>
-        <h3>Project Coordination</h3>
-        <p>Tracking deadlines and timelines using Asana, Trello, and other project management tools.</p>
+        <h3>Data & Reporting</h3>
+        <p>Building tracking systems in Excel and Google Sheets, preparing reports, monitoring performance, and surfacing issues before they escalate.</p>
       </div>
     </div>
   </section>
@@ -543,23 +618,83 @@
     <p class="section-label">Tech Stack</p>
     <h2 class="section-title">Tools I Work With</h2>
     <div class="tools-list">
-      <span class="tool-pill">WordPress</span>
-      <span class="tool-pill">Carrot CMS</span>
       <span class="tool-pill">Shopify</span>
-      <span class="tool-pill">Klaviyo</span>
-      <span class="tool-pill">Google Analytics</span>
+      <span class="tool-pill">Google Sheets</span>
+      <span class="tool-pill">Microsoft Excel</span>
       <span class="tool-pill">Google Search Console</span>
-      <span class="tool-pill">SEMrush</span>
-      <span class="tool-pill">Ahrefs</span>
-      <span class="tool-pill">Asana</span>
       <span class="tool-pill">Trello</span>
+      <span class="tool-pill">Asana</span>
+      <span class="tool-pill">Slack</span>
+      <span class="tool-pill">Gmail</span>
       <span class="tool-pill">Google Suite</span>
+      <span class="tool-pill">Microsoft Word</span>
+      <span class="tool-pill">Microsoft PowerPoint</span>
+      <span class="tool-pill">WordPress</span>
       <span class="tool-pill">Canva</span>
-      <span class="tool-pill">Buffer</span>
-      <span class="tool-pill">Hootsuite</span>
-      <span class="tool-pill">Microsoft Office</span>
+      <span class="tool-pill">Basic CRM (Salesforce/Sage-adaptable)</span>
     </div>
   </div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <p class="section-label">Work History</p>
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="experience-list">
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <span class="exp-title">Business Operations & Customer Support VA</span>
+          <span class="exp-date">Aug 2025 – Present</span>
+        </div>
+        <p class="exp-company">Ecommerce Company · Remote</p>
+        <ul class="exp-bullets">
+          <li>Managed end-to-end customer service via Shopify and Gmail — order processing, adjustments, refunds, and exchanges with high accuracy and fast turnaround.</li>
+          <li>Coordinated daily task workflows using Trello/Asana and Slack, ensuring clear cross-team communication and on-time task completion.</li>
+          <li>Built and maintained structured tracking systems in Google Sheets to monitor order data, flag inconsistencies, and surface delays early.</li>
+          <li>Prepared internal reports and documentation to improve operational visibility and support business decision-making.</li>
+          <li>Assisted in coordinating product production timelines and syncing updates across fulfillment workflows.</li>
+          <li>Managed brand social media inbox, scheduled content, and tracked engagement.</li>
+          <li>Supported SEO tasks including product description optimization to improve organic visibility.</li>
+        </ul>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <span class="exp-title">SEO & Digital Operations Assistant</span>
+          <span class="exp-date">Jan 2024 – Aug 2025</span>
+        </div>
+        <p class="exp-company">Tugas Virtual Solutions · Iligan City, Philippines</p>
+        <ul class="exp-bullets">
+          <li>Managed full-cycle SEO operations — keyword research, content writing, technical fixes, and performance monitoring.</li>
+          <li>Wrote and edited website content including product pages, blog posts, and landing pages to improve search relevance.</li>
+          <li>Built and updated web pages ensuring proper metadata, heading structure, and internal linking.</li>
+          <li>Resolved technical site issues such as crawl errors, broken links, and indexing gaps.</li>
+          <li>Tracked rankings and traffic via Google Search Console and prepared regular performance reports.</li>
+          <li>Collaborated with team members to align digital operations with overall business goals.</li>
+        </ul>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <span class="exp-title">Project & Cost Estimation Assistant</span>
+          <span class="exp-date">2023 – 2024</span>
+        </div>
+        <p class="exp-company">Construction Company · Remote / Hybrid</p>
+        <ul class="exp-bullets">
+          <li>Supported cost estimation for residential and commercial construction projects — material and labor cost data for planning and budgeting.</li>
+          <li>Performed material and quantity takeoffs to support accurate bid preparation.</li>
+          <li>Assembled bid packages by compiling cost breakdowns, takeoffs, and vendor quotes into submission-ready formats.</li>
+          <li>Gathered supplier pricing through research and outreach, ensuring estimates reflected current market rates.</li>
+          <li>Compared costs across multiple vendors and scenarios to support management decisions.</li>
+          <li>Maintained clean, accurate cost records in Microsoft Excel and Google Sheets.</li>
+          <li>Created summary cost reports for project managers, consolidating estimate data for review and approval.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
 
   <!-- SERVICES -->
   <section id="services">
@@ -567,28 +702,28 @@
     <h2 class="section-title">Services</h2>
     <div class="services-list">
       <div class="service-row">
-        <span class="service-name">Content Management</span>
-        <span class="service-desc">End-to-end content workflows — creation, SEO optimization, scheduling, and publishing via CMS platforms.</span>
+        <span class="service-name">Ecommerce Operations</span>
+        <span class="service-desc">End-to-end Shopify order management — processing, fulfillment coordination, tracking, refunds, exchanges, and exception handling.</span>
+      </div>
+      <div class="service-row">
+        <span class="service-name">Project & Operations Support</span>
+        <span class="service-desc">Scheduling, workflow tracking, documentation management, progress monitoring, and cross-team coordination via Trello or Asana.</span>
+      </div>
+      <div class="service-row">
+        <span class="service-name">Cost Estimation Assistance</span>
+        <span class="service-desc">Material takeoffs, vendor pricing research, bid package preparation, cost comparison analysis, and budget tracking in Excel or Google Sheets.</span>
       </div>
       <div class="service-row">
         <span class="service-name">SEO Support</span>
-        <span class="service-desc">Keyword research, on-page optimization, meta descriptions, heading structure, internal linking, and backlink tracking.</span>
-      </div>
-      <div class="service-row">
-        <span class="service-name">Order Fulfillment & Logistics</span>
-        <span class="service-desc">Processing Shopify orders, coordinating with suppliers, tracking deliveries, and resolving customer fulfillment issues.</span>
+        <span class="service-desc">Keyword research, on-page optimization, content writing, metadata, internal linking, technical fixes, and performance reporting via Google Search Console.</span>
       </div>
       <div class="service-row">
         <span class="service-name">Customer Service</span>
-        <span class="service-desc">Responding to inquiries, managing client communication, and ensuring satisfaction throughout the project lifecycle.</span>
+        <span class="service-desc">Responding to inquiries, managing client communication, resolving issues, and ensuring satisfaction throughout the project lifecycle.</span>
       </div>
       <div class="service-row">
-        <span class="service-name">Analytics & Reporting</span>
-        <span class="service-desc">Compiling SEO and performance reports using Google Analytics and Search Console, with actionable insights.</span>
-      </div>
-      <div class="service-row">
-        <span class="service-name">Social Media Management</span>
-        <span class="service-desc">Scheduling posts, engaging with followers, and supporting campaign execution aligned with brand strategy.</span>
+        <span class="service-name">Data Tracking & Reporting</span>
+        <span class="service-desc">Building structured tracking systems, compiling performance reports, and maintaining accurate records for operational visibility.</span>
       </div>
       <div class="service-row">
         <span class="service-name">Administrative Support</span>
@@ -605,8 +740,8 @@
       <div class="about-text">
         <p class="section-label">About Me</p>
         <h2 class="section-title" style="margin-bottom:24px;">Hi, I'm Winmarie</h2>
-        <p>I'm a detail-oriented and proactive Virtual Assistant based in the Philippines, with 1 to 3 years of experience supporting digital marketing, SEO, and e-commerce teams remotely.</p>
-        <p>I help teams stay organized, on schedule, and consistently producing work that performs — from content and SEO to order fulfillment and customer communication.</p>
+        <p>I'm a detail-oriented Virtual Assistant based in Iligan City, Philippines, with experience in operations support, project coordination, ecommerce management, and cost estimation assistance.</p>
+        <p>I help teams stay organized, on schedule, and consistently producing work that performs — from order fulfillment and customer service to SEO, data tracking, and bid preparation.</p>
         <p>I thrive in fast-paced environments, take full ownership of my tasks, and work well with minimal supervision.</p>
       </div>
       <div class="about-highlights">
@@ -616,7 +751,7 @@
         </div>
         <div class="highlight-item">
           <span class="highlight-dot"></span>
-          <p>Detail-oriented — catches errors before they become problems</p>
+          <p>Detail-oriented — builds accurate tracking systems and catches errors before they escalate</p>
         </div>
         <div class="highlight-item">
           <span class="highlight-dot"></span>
@@ -624,7 +759,7 @@
         </div>
         <div class="highlight-item">
           <span class="highlight-dot"></span>
-          <p>Remote-ready with stable internet and available during Pacific Time hours</p>
+          <p>Remote-ready with stable internet and available during Eastern Time hours</p>
         </div>
       </div>
     </div>
@@ -634,7 +769,7 @@
   <section id="contact">
     <div class="contact-box">
       <h2>Let's Work Together</h2>
-      <p>Open to part-time and full-time remote VA opportunities, especially with digital marketing, SEO, and e-commerce teams.</p>
+      <p>Open to part-time and full-time remote VA opportunities, especially in operations, ecommerce, project support, and digital marketing.</p>
       <div class="contact-links">
         <a href="https://www.linkedin.com/in/winmarie-clapano-14ba7a216/" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
         <a href="https://github.com/clapanowinmarie/VA-Portfolio" target="_blank" class="btn btn-primary">View GitHub Portfolio</a>
@@ -644,13 +779,13 @@
   </section>
 
   <footer>
-    <p>Winmarie Clapano · Virtual Assistant · Philippines · Available 8AM–8PM Eastern Daylight Time</p>
+    <p>Winmarie Clapano · Virtual Assistant · Iligan City, Philippines · Available 8AM–8PM Eastern Daylight Time</p>
   </footer>
 
   <script>
     // Scroll-triggered animations
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry, i) => {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
           setTimeout(() => {
             entry.target.classList.add('visible');
@@ -667,6 +802,11 @@
 
     document.querySelectorAll('.service-row').forEach((el, i) => {
       el.dataset.delay = i * 60;
+      observer.observe(el);
+    });
+
+    document.querySelectorAll('.exp-card').forEach((el, i) => {
+      el.dataset.delay = i * 100;
       observer.observe(el);
     });
 
